@@ -1,0 +1,12 @@
+# No external dependencies required!
+# This script uses only Python standard library modules:
+# - os
+# - sys
+# - shutil
+# - pathlib
+# - datetime
+# - collections
+# - argparse
+# - logging
+
+# Minimum Python version: 3.6+

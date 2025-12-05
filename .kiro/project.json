@@ -1,0 +1,39 @@
+{
+  "name": "Downloads Organizer",
+  "description": "AI for Bharat – Kiro Week 2 Challenge: Lazy Automation script that automatically organizes Downloads folder by file type",
+  "version": "1.0.0",
+  "type": "python",
+  "tags": ["automation", "file-management", "python", "hackathon", "ai-for-bharat"],
+  "author": "",
+  "created": "2025-12-05",
+  "mainFile": "organize_downloads.py",
+  "scripts": {
+    "run": "python organize_downloads.py",
+    "dry-run": "python organize_downloads.py --dry-run",
+    "by-date": "python organize_downloads.py --by-date",
+    "undo": "python organize_downloads.py --undo",
+    "help": "python organize_downloads.py --help"
+  },
+  "requirements": {
+    "python": ">=3.6",
+    "dependencies": []
+  },
+  "features": [
+    "Cross-platform Downloads folder detection (Windows, macOS, Linux)",
+    "Automatic file categorization by extension (7 default categories)",
+    "Dry-run mode for safe testing",
+    "Comprehensive logging to organize.log",
+    "Duplicate filename handling",
+    "System/hidden file protection",
+    "Custom path support",
+    "Date-based organization (year/month subfolders)",
+    "Configurable categories via JSON config",
+    "Undo functionality with operation history",
+    "Music and Code file categories included"
+  ],
+  "challenge": {
+    "name": "AI for Bharat – Kiro Week 2",
+    "theme": "Lazy Automation",
+    "goal": "Automate repetitive file organization tasks"
+  }
+}
